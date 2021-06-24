@@ -1,11 +1,11 @@
-FROM alpine:latest
+FROM alpine
 
-ENV VPNHOST ''
-ENV LEEMAIL ''
-ENV TZ=Europe/Moscow
+ENV VPNHOST="127.0.0.1"
+ENV LEEMAIL="kinitaleino@gmail.com"
+ENV TZ="Europe/Moscow"
 
 # strongSwan Version
-ARG SS_VERSION="https://download.strongswan.org/strongswan-5.8.2.tar.gz"
+ARG SS_VERSION="https://download.strongswan.org/strongswan-5.9.2.tar.bz2"
 ARG BUILD_DEPS="gettext"
 ARG RUNTIME_DEPS="libintl"
 

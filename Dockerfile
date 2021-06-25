@@ -1,7 +1,7 @@
 FROM alpine
 
-ENV VPNHOST="127.0.0.1"
-ENV LEEMAIL="kinitaleino@gmail.com"
+ENV VPNHOST="161.35.218.22"
+ENV LEEMAIL="devkinitaleino@gmail.com"
 ENV TZ="Europe/Moscow"
 
 # strongSwan Version
